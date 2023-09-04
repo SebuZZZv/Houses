@@ -1,0 +1,536 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+
+#ffsection{
+    .f-of-house{
+        margin: 0 auto;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        
+        background-color: aqua;
+        
+        img{
+           width: 100%;
+           height: 950px; 
+            border-bottom: 5px solid black;
+        }
+        #nav{
+            position: absolute;
+            z-index: 3;
+            width: 100%;
+            
+        }
+        .meter{
+            position: absolute;
+            left: 80%;
+            top: 30%;
+            color: white;
+            background-color: rgb(211, 192, 25);
+            padding: 5px 15px 5px 15px;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+        .logo{
+            float: left;
+            margin-left: 30px;
+            p{
+                font-size: 24px;
+                color: white;
+            }
+        }
+        .assets{
+            float: right;
+            margin-right: 39px;
+            margin-top: 20px;
+                a{
+                    font-size: 24px;
+                    color: white;
+                    cursor: pointer;
+                    text-decoration: none;
+                }
+        }
+        .b-text-front{
+            position: absolute;
+            top: 120px;
+            left: 150px;
+            z-index: 3;
+            line-height: 0;
+            width: 80%;
+            clear: both;
+            h1{
+                font-size: 76px;
+                color: rgb(211, 192, 25);
+            }
+            P{
+                color: white;
+                font-size: 90px;
+                
+            }
+            p:nth-child(3){
+                width: 50%;
+                line-height: 0.6cm;
+                color: rgb(231, 231, 220);
+                font-size: 24px;
+            }
+            
+        }
+        .btn{
+            position: absolute;
+            top: 480px;
+            left: 150px;
+            width: 150px;
+            background-color: rgb(211, 192, 25);
+            border: none;
+            padding: 15px;
+            border-radius: 100px;
+            font-weight: bolder;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    }
+}
+#next-section{
+    width: 100%;
+    height: 945px;
+    clear: both;
+    
+    .n-of-section{
+        width: 50%;
+        margin: 0 auto;
+        
+        h1{
+            text-align: center;
+            font-size: 40px;
+        }
+        p{
+            text-align: center;
+            margin: 0 auto;
+            width: 50%;
+            color: rgb(211, 192, 25);
+        }
+    }
+    .lh-neibor{
+        width: 100%;
+        height: 400px;
+        margin-top: 100px;
+        
+        position: absolute;
+        
+        
+    }
+    .szkic{
+        width: 300px;
+        margin-top: 25px;
+        margin-left: 65px;
+        
+        display: inline-block;
+        
+        .w-house{
+            float: right;
+            background-color: rgb(211, 192, 25);
+            padding: 5px 10px 5px 10px;
+            border-radius: 5px;
+            position: relative;
+            top: 30px;
+            left: 15px;
+            rotate: 45deg;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+        }
+        .little-rectangle{
+            width: 80%;
+            height: 70px;
+            background-color: white;
+            margin: 0 auto;
+            .first-s{
+                width: 100%;
+                
+                display: inline-block;
+                
+                h2{
+                    float: left;
+                    font-size: 18px;
+                }
+                p{
+                   float: right;
+                
+                }
+            }
+            .second-s{
+                width: 50%;
+                margin: 0 auto;
+                
+                margin-top: -25px;
+                .icon{
+                   float: left;
+                }
+                .icon:nth-child(2){
+                    margin-left: 50px;
+                 }
+            }
+            .last-s{
+                width: 100%;
+                display: inline-block;
+                p{
+                    margin-top: -5px;
+                    float: left;
+                   }
+                .checkmor, .checkmo1, .checkmor2, .checkmor3, .checkmor4, .checkmor5{
+                    float: right;
+                    margin-top: -5px;
+                    background-color: yellow;
+                    padding: 0px 5px 0px 5px;
+                    cursor: pointer;
+                }
+            }
+           
+        }
+        
+    }
+    
+    .b-rectangle{
+        width: 100%;
+        height: 200px;
+        background-color: black;
+        margin-top: 200px;
+        
+    }
+}
+#third-section{
+    width: 100%;
+    position: relative;
+    
+    .name-section{
+    text-align: center;
+    h1{
+        padding: 20px;
+        font-size: 40px;
+    }
+    }
+    .Gallery-box{
+        width: 80%;
+        position: relative;
+        
+        margin: 0 auto;
+        
+        
+        img{
+            
+            padding: 2px;
+        }
+        
+    }
+    .button-see-more-gallery{
+        text-align: center;
+        cursor: pointer;
+        font-size: 20px;
+        padding: 5px;
+    }
+    .gallery{
+        width: 80%;
+        height: 90%;
+        display: none;
+        position: absolute;
+        top: 100px;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        margin: auto;
+        background: rgba(255, 255, 255, 0.49);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    .fa-xmark{
+        font-size: 28px;
+        margin-top: 50px;
+        margin-left: 25px;
+        cursor: pointer;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    .more-gallery{
+        width: 100%;
+        height: 95%;
+    }
+    }
+}
+
+.four-section{
+    width: 100%;
+    height: 900px;
+    margin-top: 60px;
+    .name-section{
+        text-align: center;
+        
+    }
+    h1{
+        font-size: 40px;
+    }
+    .fade {
+        animation-name: fade;
+        animation-duration: 1.5s;
+      }
+     
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  } 
+    .person-box{
+        width: 900px;
+        height: 500px;
+        border: 1px solid black;
+        box-shadow: 0px 0px 10px gray;
+        margin: 0 auto;
+        margin-top: 80px;
+        position: relative;
+        .person-foto{
+            width: 32%;
+            height: 100%;
+            float: left;
+            img{
+                width: 334px;
+            }
+        }
+        .person-description{
+            width: 65%;
+            height: 100%;
+            float: right;
+            
+            h1{
+                margin-left: 40px;
+                margin-top: 100px;
+                font-size: 28px;
+            }
+            p{
+                margin-left: 40px;
+                font-size: 22px;
+            }
+            
+        }
+    }
+    .next{
+        position: relative;
+        
+        top: 15vh;
+        left: 40vh;
+        font-size: 24px;
+        width: 80px;
+        height: 350px;
+        background-color: transparent;
+        box-shadow: none;
+        z-index: 3;
+        color: rgba(0, 0, 0, 0.548);
+        border: none;
+        cursor: pointer;
+        float: left;
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+    .back{
+        position: relative;
+        
+        top: 15vh;
+        right: 40vh;
+        font-size: 24px;
+        width: 80px;
+        height: 350px;
+        background-color: transparent;
+        box-shadow: none;
+        float: right;
+        color: rgba(0, 0, 0, 0.568);
+        border: none;
+        cursor: pointer;
+        
+        &:hover{
+            background-color: black;
+            color: white;
+        }
+    }
+}
+.contact-section{
+    width: 100%;
+    height: 900px;
+    margin-top: 60px;
+    
+    .name-section{
+        text-align: center;
+        h1{
+            font-size: 40px;
+        }
+    }
+    .contact-box{
+        width: 600px;
+        height: 650px;
+        border: 1px solid black;
+        margin: 0 auto;
+        border-radius: 50px;
+        form{
+            text-align: center;
+            margin-top: 100px;
+            input{
+                width: 300px;
+            }
+            .contact{
+                font-size: 20px;
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
+.NewDiv{
+    width: 100%;
+    height: 1000px;
+    display: block;
+    position: absolute;
+    top: 110vh;
+    .hui{
+        margin: 0 auto;
+        height: 80%;
+        
+        /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.49);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(8.1px);
+    -webkit-backdrop-filter: blur(8.1px);
+    border: 1px solid rgba(255, 255, 255, 1);
+    .close-X{
+        font-size: 40px;
+        cursor: pointer;
+        .fa-xmark{
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }   
+    }
+        .house-foto{
+            float: left;
+            
+            position: relative;
+            top: 10vh;
+            left: 100px;
+            img{
+                width: 900px;
+                border-radius: 20px;
+            }
+        }
+        .house-descr{
+            width: 700px;
+            height: 530px;
+            font-size: 30px;
+            float: right;
+            position: relative;
+            top: 13vh;
+            right: 100px;
+            margin-top: 13vh;
+        }
+    }
+}
+
+@media screen and  (max-width: 800px){
+    .f-of-house{
+        img{
+            height: 650px !important;
+        }
+    }
+    .b-text-front{
+        width: 300px !important;
+        text-align: center;
+        h1{
+            font-size: 32px !important;
+            margin-left: -10vh;
+        }
+        p:nth-child(2){
+            font-size: 23px !important;
+            margin-left: -10vh;
+            
+        }
+        p:nth-child(3){
+            font-size: 23px !important;
+            color: rgb(211, 192, 25) !important;
+            width: 200px !important;
+        }
+    }
+    .btn{
+        left: 20vh !important;
+    }
+    .n-of-section{
+        p{
+            width: 200px !important;
+        }
+    }
+    #next-section{
+        height: 2800px;
+        .szkic{
+            margin-left: 85px;
+            img{
+                height: 280px !important;
+            }
+        }
+    }
+    .Gallery-box{
+        img{
+            width: 370px;
+        }
+    }
+    .four-section{
+        height: 1200px;
+    }
+    .next{
+        left: 5px !important;
+        top: 32vh !important;
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .back{
+        right: 5px !important;
+        top: 32vh !important;
+        height: 30px !important;
+        width: 30px !important;
+    }
+    .person-box{
+        width: 400px !important;
+        img{
+            width: 300px;
+        }
+        .person-description{
+            width: 100% !important;
+            p{
+                width: 300px;
+            }
+        }
+    }
+    .contact-box{
+        width: 450px !important;
+    }
+    .gallery{
+        height: 4700px !important;
+        z-index: 3;
+        width: 400px !important;
+    }.more-gallery{
+        margin-left: 50px;
+        width: 300px !important;
+    }
+    .house-foto{
+       img{
+        width: 300px !important;
+       }
+    }
+    .house-descr{
+        font-size: 16px !important;
+        right: 50px !important;
+        width: 350px !important;
+    }
+}
